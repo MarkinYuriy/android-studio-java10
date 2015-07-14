@@ -44,7 +44,7 @@ public class MainActivityFragment extends Fragment {
         ListView listVw = (ListView) rootVw.findViewById(R.id.listview_forecast);
 
         listVw.setAdapter(forecastAdapter);
-        new FetchWeatherTask().execute();
+        //new FetchWeatherTask().execute();
 
         return rootVw;
 
